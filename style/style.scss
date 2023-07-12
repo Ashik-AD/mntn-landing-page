@@ -2,6 +2,7 @@
 @import 'queries';
 * {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;;
     margin: 0;
     padding: 0;
 }
@@ -146,7 +147,7 @@ img {
         width: 100%;
         transform-style: preserve-3d;
         will-change: transform;
-        transition: 200ms ease;
+        transition: 300ms cubic-bezier(.44,.32,.69,.48);
         z-index: -1;
         pointer-events: none;
 
